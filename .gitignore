@@ -1,0 +1,53 @@
+.qodo
+.qodo
+
+.fake
+
+# Ignore build artifacts (C#)
+bin/
+obj/
+
+# User-specific files (VS, VS Code, Rider)
+.vscode/
+*.suo
+*.user
+*.vs/
+*.sln.cache
+
+# Logs, temp files, and database
+*.log
+*.tmp
+*.bak
+*.db
+*.db-shm
+*.db-wal
+
+# ASP.NET Core configuration
+appsettings.Development.json
+appsettings.Local.json
+
+# NuGet Packages
+*.nupkg
+packages/
+
+# Ignore build artifacts (Angular)
+node_modules/
+dist/
+out-tsc/
+.angular/
+
+# Ignore TypeScript build files
+*.js
+*.js.map
+
+# Ignore coverage reports
+coverage/
+
+# Ignore environment files (if used)
+.env
+.env.local
+
+# Lock files (optional)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
